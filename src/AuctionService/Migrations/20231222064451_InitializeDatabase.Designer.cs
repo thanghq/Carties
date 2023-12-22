@@ -9,11 +9,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
-namespace AuctionService.Data.Migrations
+namespace AuctionService.Migrations
 {
     [DbContext(typeof(AuctionDbContext))]
-    [Migration("20231221093925_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20231222064451_InitializeDatabase")]
+    partial class InitializeDatabase
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -81,7 +81,7 @@ namespace AuctionService.Data.Migrations
                     b.Property<string>("Make")
                         .HasColumnType("text");
 
-                    b.Property<int>("Milage")
+                    b.Property<int>("Mileage")
                         .HasColumnType("integer");
 
                     b.Property<string>("Model")
