@@ -5,6 +5,7 @@ Some tool/package that will be used in the project
 * Dotnet core 8.0
 * Docker
 * Postgres
+* MongoDB
 
 For developer, VS Code is suggested with following extensions:
 * .Net devkit v1.2.5
@@ -12,6 +13,8 @@ For developer, VS Code is suggested with following extensions:
 * .NET Install Tool v2.0.0
 * Docker v1.28.0
 * PostgreSQL v1.4.3
+* NuGet Gallery v0.0.24
+* MongoDB for VS Code v1.3.1
 
 # Dotnet core project with NextJS
 
