@@ -33,3 +33,6 @@ To run the project follow steps below:
 * ```dotnet ef database drop``` this command will drop your database
 * ```dotnet ef Migrations add <name-of-migration>``` this command will create a migrations script into the folder ```Migrations``` and name of the migration will be ```<timestamp>_<name-of-migration>.cs```
 * ```dotnet ef database udpate``` this command will update your database with the migrations script created.
+
+# Alternative solution for Duende Identity server:
+Because Duende Identity server (former is IdentityService4) is not free, hence you may wanna try with this:  ```https://github.com/Aguafrommars/Identity.Redis```
